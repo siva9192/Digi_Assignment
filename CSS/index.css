@@ -1,0 +1,39 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #eeee;
+}
+.mainBody {
+  background-image: url("../images/bg.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+#nav article {
+  width: 100%;
+  margin: 0px auto;
+  height: 80px;
+  padding: 20px;
+  align-items: center;
+  background-color: rgb(24, 167, 185);
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+#nav .navbar {
+  margin: 0px 8px 0px 8px;
+}
+#nav .navbar .rightnav {
+  box-sizing: border-box;
+  display: flex;
+}
+#nav .navbar .rightnav a {
+  color: rgb(6, 245, 233);
+}
+.rightnav div:nth-child(1) {
+  margin: 0px 53px 0px 0px;
+}
+.rightnav div:nth-child(1) a,
+.rightnav div:nth-child(2) a {
+  text-decoration: none;
+}
